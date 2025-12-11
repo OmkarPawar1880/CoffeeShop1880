@@ -1,8 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { FaHome, FaPhone } from "react-icons/fa";
 import { MdMenu, MdInfo } from "react-icons/md";
+import { FaLeaf, FaClock, FaUsers } from "react-icons/fa";
+import FeaturesSection from "./FeatureSection";
 
 export default function App() {
+  
+  
+  
+
   const [open, setOpen] = useState(false);
 
   // toggle menu open/close
@@ -111,6 +117,10 @@ export default function App() {
         <button className="cta-button">Order a coffee</button>
         </div>
       </main>
+      
+        {/* Right: highlights */}
+        
+    
     </>
   )
 }
