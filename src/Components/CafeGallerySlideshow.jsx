@@ -91,11 +91,7 @@ export default function CafeGallerySlideshow({ images: propImages }) {
   }, [slideCount]); // slideCount is stable; handler uses next/prev closures
 
   return (
-<<<<<<< HEAD
     <section className="cafe-gallery" id="gallery" aria-label="Café photo gallery slideshow">
-=======
-    <section className="cafe-gallery" aria-label="Café photo gallery slideshow">
->>>>>>> c6f70094df705067fdd2276d06e502c93ace97a2
       <div className="gallery__container" ref={containerRef} tabIndex={0}>
         <div className="gallery__viewport" role="region" aria-roledescription="carousel">
           {images.map((src, i) => {
@@ -114,13 +110,8 @@ export default function CafeGallerySlideshow({ images: propImages }) {
                 <figcaption className="gallery__caption">
                   {i === 0 && "Café interior"}
                   {i === 1 && "Latte art"}
-<<<<<<< HEAD
                   {i === 2 && "Brewing moment"}
                   {i === 3 && "Coffee beans"}
-=======
-                  {i === 2 && "Coffee beans"}
-                  {i === 3 && "Brewing moment"}
->>>>>>> c6f70094df705067fdd2276d06e502c93ace97a2
                 </figcaption>
               </figure>
             );

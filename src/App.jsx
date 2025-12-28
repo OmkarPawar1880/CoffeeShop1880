@@ -1,5 +1,4 @@
 import React from 'react'
-<<<<<<< HEAD
 import './App.css'
 import Header from './Components/Header'  
 import Hero from './Components/Hero'
@@ -37,26 +36,6 @@ const App = () => {
    <Footer />
    
    </>
-=======
-import Header from './Components/Header.jsx';
-import './App.css';
-import AboutSection from './Components/AboutSection.jsx';
-import MenuSection from './Components/MenuSection.jsx';
-import FeaturesSection from './Components/FeatureSection.jsx';
-import CafeGallerySlideshow from './Components/CafeGallerySlideshow.jsx';
-import Footer from './Components/Footer.jsx';
-
-const App = () => {
-  return (
-    <>
-      <Header />
-      <AboutSection />
-      <MenuSection />
-      <FeaturesSection />
-      <CafeGallerySlideshow />
-      <Footer />
-    </>
->>>>>>> c6f70094df705067fdd2276d06e502c93ace97a2
   )
 }
 
