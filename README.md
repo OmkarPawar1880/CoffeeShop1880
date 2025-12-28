@@ -9,7 +9,7 @@
 ---
 
 ### 🔗 **Live Demo**  
-👉 *Add your deployed link here (Netlify / Vercel / GitHub Pages)*  
+https://emberandbrew.netlify.app/
 
 </div>
 
