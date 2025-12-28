@@ -2,7 +2,9 @@
 # ☕✨ **Ember & Brew — Café Website**
 ### _A warm, modern, handcrafted web experience for coffee lovers._
 
-<img src="https://img.icons8.com/emoji/96/coffee-emoji.png" width="90" />
+![Coffee Shop Preview](https://tse2.mm.bing.net/th/id/OIP.ceWD_37sJtbS9h6_NZjAQAHaGz?rs=1&pid=ImgDetMain&o=7&rm=3)
+
+
 
 ---
 
