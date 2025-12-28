@@ -7,7 +7,7 @@ import React, { useEffect, useRef, useState } from "react";
 
 export default function CafeGallerySlideshow({ images: propImages }) {
   const fallbackImages = [
-    "src/assets/ravi-sharma-B_4SL5mN1OA-unsplash.jpg",
+    "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1634025439/01hkpg3ncvsh203g3w1efkb844.jpg",
     "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1600&q=80&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=1600&q=80&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1512568400610-62da28bc8a13?w=1600&q=80&auto=format&fit=crop"
