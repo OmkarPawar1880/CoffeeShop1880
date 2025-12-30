@@ -1,7 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import heroImg from "../assets/ember & brew cafe.png";
+import heroDesktop from "../assets/ember & brew cafe.png";
+import heroMobile from "../assets/Ember & Brew Phone.png";
+import heroTablet from "../assets/Ember & Brew Tab.png"
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -59,8 +61,31 @@ const Hero = () => {
   return (
     <section className="hero-container" id="home" ref={containerRef}>
       {/* Background Image */}
-      <img src={heroImg} alt="Ember & Brew Cafe" className="hero-img" />
 
+      {/* 🔥 Responsive Background Image */}
+      <picture className="hero-img-wrapper">
+        {/* Mobile */}
+        <source
+          media="(max-width: 600px)"
+          srcSet={heroMobile}
+        />
+
+        {/* Tablet */}
+        <source
+          media="(max-width: 1024px)"
+          srcSet={heroTablet}
+        />
+
+        {/* Desktop (fallback) */}
+        <img
+          src={heroDesktop}
+          alt="Ember & Brew Cafe"
+          className="hero-img"
+        />
+      </picture>
+
+
+      
       {/* Mask */}
       <div className="mask" ref={maskRef}>
         <h2 ref={textRef}>Ember & Brew</h2>
